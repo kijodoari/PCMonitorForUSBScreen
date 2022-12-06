@@ -412,19 +412,19 @@
 </value>
   </data>
   <data name="label12.Text" xml:space="preserve">
-    <value>1.应用默认加载default文件夹中的主题。
+    <value>1. The application loads the theme in the default folder by default.
 
-2.在运行之前需要确认屏幕的显示符合主题中定义的宽/高。
+2. Before running, you need to confirm that the display of the screen conforms to the width/height defined in the theme.
 
-3.只有在设备连接成功并且不处于运行状态时才能进行屏幕操作。
+3. Screen operations can only be performed when the device is connected successfully and not in the running state.
 
-4.渲染耗时指的是从获取硬件信息到信息呈现到屏幕所耗费的时间，实际上的每帧时间控制为设置的单帧时间。
+4. Rendering time refers to the time it takes from acquiring hardware information to displaying the information on the screen. The actual time per frame is controlled as the set single frame time.
 
-5.渲染次数既总共渲染过的帧总数。
+5. The number of renderings is the total number of frames rendered.
 
-6.屏保运行时将以红、黄、蓝三种颜色分别刷新一次屏幕。
+6. When the screen saver is running, the screen will be refreshed in red, yellow and blue respectively.
 
-7.如果希望该应用能支持你的屏幕，请联系 wanglvhang@qq.com 进行适配。</value>
+7. If you want the app to support your screen, please contact wanglvhang@qq.com for adaptation.</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>

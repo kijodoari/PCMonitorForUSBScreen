@@ -106,22 +106,22 @@ namespace PCMonitor.UI
             this.ContextMenuStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.exitToolStripMenuItem});
             this.ContextMenuStrip.Name = "ContextMenuStrip";
-            this.ContextMenuStrip.Size = new System.Drawing.Size(97, 26);
+            this.ContextMenuStrip.Size = new System.Drawing.Size(94, 26);
             // 
             // exitToolStripMenuItem
             // 
             this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
-            this.exitToolStripMenuItem.Size = new System.Drawing.Size(96, 22);
+            this.exitToolStripMenuItem.Size = new System.Drawing.Size(93, 22);
             this.exitToolStripMenuItem.Text = "Exit";
             this.exitToolStripMenuItem.Click += new System.EventHandler(this.exitToolStripMenuItem_Click);
             // 
             // btnStart
             // 
-            this.btnStart.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.btnStart.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.btnStart.ForeColor = System.Drawing.Color.Teal;
-            this.btnStart.Location = new System.Drawing.Point(275, 407);
+            this.btnStart.Location = new System.Drawing.Point(275, 441);
             this.btnStart.Name = "btnStart";
-            this.btnStart.Size = new System.Drawing.Size(93, 38);
+            this.btnStart.Size = new System.Drawing.Size(93, 41);
             this.btnStart.TabIndex = 1;
             this.btnStart.Text = "Start";
             this.btnStart.UseVisualStyleBackColor = true;
@@ -129,11 +129,11 @@ namespace PCMonitor.UI
             // 
             // btnStop
             // 
-            this.btnStop.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.btnStop.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.btnStop.ForeColor = System.Drawing.Color.OrangeRed;
-            this.btnStop.Location = new System.Drawing.Point(175, 407);
+            this.btnStop.Location = new System.Drawing.Point(175, 441);
             this.btnStop.Name = "btnStop";
-            this.btnStop.Size = new System.Drawing.Size(93, 38);
+            this.btnStop.Size = new System.Drawing.Size(93, 41);
             this.btnStop.TabIndex = 2;
             this.btnStop.Text = "Stop";
             this.btnStop.UseVisualStyleBackColor = true;
@@ -142,30 +142,30 @@ namespace PCMonitor.UI
             // cmbThemes
             // 
             this.cmbThemes.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cmbThemes.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.cmbThemes.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
             this.cmbThemes.FormattingEnabled = true;
-            this.cmbThemes.Location = new System.Drawing.Point(161, 20);
+            this.cmbThemes.Location = new System.Drawing.Point(161, 22);
             this.cmbThemes.Name = "cmbThemes";
-            this.cmbThemes.Size = new System.Drawing.Size(126, 24);
+            this.cmbThemes.Size = new System.Drawing.Size(126, 21);
             this.cmbThemes.TabIndex = 3;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(10, 24);
+            this.label1.Location = new System.Drawing.Point(60, 28);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(143, 12);
+            this.label1.Size = new System.Drawing.Size(85, 13);
             this.label1.TabIndex = 4;
-            this.label1.Text = "所选主题/Selected Theme";
+            this.label1.Text = "Selected Theme";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(82, 57);
+            this.label4.Location = new System.Drawing.Point(107, 63);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(71, 12);
+            this.label4.Size = new System.Drawing.Size(50, 13);
             this.label4.TabIndex = 9;
-            this.label4.Text = "设备/Device";
+            this.label4.Text = "Device  -";
             // 
             // groupBox1
             // 
@@ -181,102 +181,102 @@ namespace PCMonitor.UI
             this.groupBox1.Controls.Add(this.cmbThemes);
             this.groupBox1.Controls.Add(this.label4);
             this.groupBox1.Controls.Add(this.label1);
-            this.groupBox1.Location = new System.Drawing.Point(223, 12);
+            this.groupBox1.Location = new System.Drawing.Point(223, 13);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(302, 175);
+            this.groupBox1.Size = new System.Drawing.Size(302, 190);
             this.groupBox1.TabIndex = 10;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "主题与设备/Theme&Device Info";
+            this.groupBox1.Text = "Device Info - Theme";
             // 
             // labScreenWH
             // 
             this.labScreenWH.AutoSize = true;
-            this.labScreenWH.Location = new System.Drawing.Point(159, 150);
+            this.labScreenWH.Location = new System.Drawing.Point(159, 162);
             this.labScreenWH.Name = "labScreenWH";
-            this.labScreenWH.Size = new System.Drawing.Size(23, 12);
+            this.labScreenWH.Size = new System.Drawing.Size(27, 13);
             this.labScreenWH.TabIndex = 19;
             this.labScreenWH.Text = "N/A";
             // 
             // label20
             // 
             this.label20.AutoSize = true;
-            this.label20.Location = new System.Drawing.Point(106, 149);
+            this.label20.Location = new System.Drawing.Point(79, 162);
             this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(47, 12);
+            this.label20.Size = new System.Drawing.Size(78, 13);
             this.label20.TabIndex = 18;
-            this.label20.Text = "宽高/WH";
+            this.label20.Text = "Width Height  -";
             // 
             // labDeviceStatus
             // 
             this.labDeviceStatus.AutoSize = true;
-            this.labDeviceStatus.Location = new System.Drawing.Point(159, 104);
+            this.labDeviceStatus.Location = new System.Drawing.Point(159, 113);
             this.labDeviceStatus.Name = "labDeviceStatus";
-            this.labDeviceStatus.Size = new System.Drawing.Size(23, 12);
+            this.labDeviceStatus.Size = new System.Drawing.Size(27, 13);
             this.labDeviceStatus.TabIndex = 17;
             this.labDeviceStatus.Text = "N/A";
             // 
             // label18
             // 
             this.label18.AutoSize = true;
-            this.label18.Location = new System.Drawing.Point(16, 103);
+            this.label18.Location = new System.Drawing.Point(74, 113);
             this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(137, 12);
+            this.label18.Size = new System.Drawing.Size(83, 13);
             this.label18.TabIndex = 16;
-            this.label18.Text = "设备状态/Device Status";
+            this.label18.Text = "Device Status  -";
             // 
             // labComName
             // 
             this.labComName.AutoSize = true;
-            this.labComName.Location = new System.Drawing.Point(159, 81);
+            this.labComName.Location = new System.Drawing.Point(159, 88);
             this.labComName.Name = "labComName";
-            this.labComName.Size = new System.Drawing.Size(23, 12);
+            this.labComName.Size = new System.Drawing.Size(27, 13);
             this.labComName.TabIndex = 15;
             this.labComName.Text = "N/A";
             // 
             // label21
             // 
             this.label21.AutoSize = true;
-            this.label21.Location = new System.Drawing.Point(98, 80);
+            this.label21.Location = new System.Drawing.Point(86, 88);
             this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(53, 12);
+            this.label21.Size = new System.Drawing.Size(71, 13);
             this.label21.TabIndex = 14;
-            this.label21.Text = "COM Name";
+            this.label21.Text = "COM Name  -";
             // 
             // labWidgetCount
             // 
             this.labWidgetCount.AutoSize = true;
-            this.labWidgetCount.Location = new System.Drawing.Point(159, 127);
+            this.labWidgetCount.Location = new System.Drawing.Point(159, 138);
             this.labWidgetCount.Name = "labWidgetCount";
-            this.labWidgetCount.Size = new System.Drawing.Size(23, 12);
+            this.labWidgetCount.Size = new System.Drawing.Size(27, 13);
             this.labWidgetCount.TabIndex = 13;
             this.labWidgetCount.Text = "N/A";
             // 
             // labDevice
             // 
             this.labDevice.AutoSize = true;
-            this.labDevice.Location = new System.Drawing.Point(159, 58);
+            this.labDevice.Location = new System.Drawing.Point(159, 63);
             this.labDevice.Name = "labDevice";
-            this.labDevice.Size = new System.Drawing.Size(23, 12);
+            this.labDevice.Size = new System.Drawing.Size(27, 13);
             this.labDevice.TabIndex = 12;
             this.labDevice.Text = "N/A";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(40, 126);
+            this.label5.Location = new System.Drawing.Point(29, 138);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(113, 12);
+            this.label5.Size = new System.Drawing.Size(128, 13);
             this.label5.TabIndex = 11;
-            this.label5.Text = "Widgets 数量/Count";
+            this.label5.Text = "Widgets quantity/Count  -";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(16, 26);
+            this.label3.Location = new System.Drawing.Point(16, 28);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(119, 12);
+            this.label3.Size = new System.Drawing.Size(62, 13);
             this.label3.TabIndex = 10;
-            this.label3.Text = "单帧时间/Frame Time";
+            this.label3.Text = "Frame Time";
             // 
             // groupBox2
             // 
@@ -284,18 +284,18 @@ namespace PCMonitor.UI
             this.groupBox2.Controls.Add(this.labFrameCount);
             this.groupBox2.Controls.Add(this.label6);
             this.groupBox2.Controls.Add(this.label2);
-            this.groupBox2.Location = new System.Drawing.Point(21, 463);
+            this.groupBox2.Location = new System.Drawing.Point(21, 502);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(504, 83);
+            this.groupBox2.Size = new System.Drawing.Size(504, 90);
             this.groupBox2.TabIndex = 11;
             this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "运行信息/Running Info";
+            this.groupBox2.Text = "Running Info";
             // 
             // labRenderTime
             // 
             this.labRenderTime.AutoSize = true;
-            this.labRenderTime.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Bold);
-            this.labRenderTime.Location = new System.Drawing.Point(274, 49);
+            this.labRenderTime.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Bold);
+            this.labRenderTime.Location = new System.Drawing.Point(315, 53);
             this.labRenderTime.Name = "labRenderTime";
             this.labRenderTime.Size = new System.Drawing.Size(73, 22);
             this.labRenderTime.TabIndex = 4;
@@ -304,8 +304,8 @@ namespace PCMonitor.UI
             // labFrameCount
             // 
             this.labFrameCount.AutoSize = true;
-            this.labFrameCount.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.labFrameCount.Location = new System.Drawing.Point(125, 49);
+            this.labFrameCount.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.labFrameCount.Location = new System.Drawing.Point(87, 53);
             this.labFrameCount.Name = "labFrameCount";
             this.labFrameCount.Size = new System.Drawing.Size(44, 22);
             this.labFrameCount.TabIndex = 3;
@@ -314,39 +314,39 @@ namespace PCMonitor.UI
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(228, 28);
+            this.label6.Location = new System.Drawing.Point(269, 30);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(119, 12);
+            this.label6.Size = new System.Drawing.Size(187, 13);
             this.label6.TabIndex = 1;
-            this.label6.Text = "渲染耗时/Frame Cost";
+            this.label6.Text = "Time consuming to render/Frame Cost";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(33, 28);
+            this.label2.Location = new System.Drawing.Point(48, 30);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(143, 12);
+            this.label2.Size = new System.Drawing.Size(122, 13);
             this.label2.TabIndex = 0;
-            this.label2.Text = "本次运行渲染次数/Frames";
+            this.label2.Text = "Rendering times/Frames";
             // 
             // ckbAutoStart
             // 
             this.ckbAutoStart.AutoSize = true;
-            this.ckbAutoStart.Location = new System.Drawing.Point(18, 335);
+            this.ckbAutoStart.Location = new System.Drawing.Point(18, 363);
             this.ckbAutoStart.Name = "ckbAutoStart";
-            this.ckbAutoStart.Size = new System.Drawing.Size(72, 16);
+            this.ckbAutoStart.Size = new System.Drawing.Size(70, 17);
             this.ckbAutoStart.TabIndex = 12;
-            this.ckbAutoStart.Text = "自动启动";
+            this.ckbAutoStart.Text = "AutoStart";
             this.ckbAutoStart.UseVisualStyleBackColor = true;
             // 
             // ckbScreenProtect
             // 
             this.ckbScreenProtect.AutoSize = true;
-            this.ckbScreenProtect.Location = new System.Drawing.Point(18, 236);
+            this.ckbScreenProtect.Location = new System.Drawing.Point(19, 274);
             this.ckbScreenProtect.Name = "ckbScreenProtect";
-            this.ckbScreenProtect.Size = new System.Drawing.Size(48, 16);
+            this.ckbScreenProtect.Size = new System.Drawing.Size(89, 17);
             this.ckbScreenProtect.TabIndex = 13;
-            this.ckbScreenProtect.Text = "屏保";
+            this.ckbScreenProtect.Text = "Screen saver";
             this.ckbScreenProtect.UseVisualStyleBackColor = true;
             // 
             // groupBox3
@@ -365,19 +365,19 @@ namespace PCMonitor.UI
             this.groupBox3.Controls.Add(this.label9);
             this.groupBox3.Controls.Add(this.cmbNetInterfaces);
             this.groupBox3.Controls.Add(this.ckbScreenProtect);
-            this.groupBox3.Location = new System.Drawing.Point(21, 12);
+            this.groupBox3.Location = new System.Drawing.Point(21, 13);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(196, 377);
+            this.groupBox3.Size = new System.Drawing.Size(196, 408);
             this.groupBox3.TabIndex = 14;
             this.groupBox3.TabStop = false;
-            this.groupBox3.Text = "配置信息/Configuration Info";
+            this.groupBox3.Text = "Configuration Info";
             // 
             // label15
             // 
             this.label15.AutoSize = true;
-            this.label15.Location = new System.Drawing.Point(167, 48);
+            this.label15.Location = new System.Drawing.Point(170, 47);
             this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(17, 12);
+            this.label15.Size = new System.Drawing.Size(20, 13);
             this.label15.TabIndex = 13;
             this.label15.Text = "ms";
             // 
@@ -390,14 +390,14 @@ namespace PCMonitor.UI
             "800",
             "1000",
             "1200"});
-            this.cmbFrameTime.Location = new System.Drawing.Point(16, 40);
+            this.cmbFrameTime.Location = new System.Drawing.Point(19, 44);
             this.cmbFrameTime.Name = "cmbFrameTime";
-            this.cmbFrameTime.Size = new System.Drawing.Size(146, 20);
+            this.cmbFrameTime.Size = new System.Drawing.Size(146, 21);
             this.cmbFrameTime.TabIndex = 12;
             // 
             // numScreenprotectInterval
             // 
-            this.numScreenprotectInterval.Location = new System.Drawing.Point(21, 287);
+            this.numScreenprotectInterval.Location = new System.Drawing.Point(19, 298);
             this.numScreenprotectInterval.Maximum = new decimal(new int[] {
             720,
             0,
@@ -409,7 +409,7 @@ namespace PCMonitor.UI
             0,
             0});
             this.numScreenprotectInterval.Name = "numScreenprotectInterval";
-            this.numScreenprotectInterval.Size = new System.Drawing.Size(48, 21);
+            this.numScreenprotectInterval.Size = new System.Drawing.Size(48, 20);
             this.numScreenprotectInterval.TabIndex = 21;
             this.numScreenprotectInterval.Tag = "";
             this.numScreenprotectInterval.Value = new decimal(new int[] {
@@ -421,37 +421,37 @@ namespace PCMonitor.UI
             // label11
             // 
             this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(15, 175);
+            this.label11.Location = new System.Drawing.Point(16, 193);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(119, 12);
+            this.label11.Size = new System.Drawing.Size(30, 13);
             this.label11.TabIndex = 5;
-            this.label11.Text = "开始日期/Start Date";
+            this.label11.Text = "Date";
             // 
             // label13
             // 
             this.label13.AutoSize = true;
-            this.label13.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label13.Location = new System.Drawing.Point(15, 271);
+            this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
+            this.label13.Location = new System.Drawing.Point(16, 251);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(77, 12);
+            this.label13.Size = new System.Drawing.Size(87, 13);
             this.label13.TabIndex = 20;
-            this.label13.Text = "屏保运行间隔";
+            this.label13.Text = "Screen Protector";
             // 
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label8.Location = new System.Drawing.Point(69, 293);
+            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
+            this.label8.Location = new System.Drawing.Point(17, 330);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(89, 12);
+            this.label8.Size = new System.Drawing.Size(116, 13);
             this.label8.TabIndex = 19;
-            this.label8.Text = "分钟（60~720）";
+            this.label8.Text = "Recommend（60~720）";
             // 
             // dtpStartDate
             // 
-            this.dtpStartDate.Location = new System.Drawing.Point(16, 193);
+            this.dtpStartDate.Location = new System.Drawing.Point(19, 209);
             this.dtpStartDate.Name = "dtpStartDate";
-            this.dtpStartDate.Size = new System.Drawing.Size(148, 21);
+            this.dtpStartDate.Size = new System.Drawing.Size(148, 20);
             this.dtpStartDate.TabIndex = 4;
             this.dtpStartDate.Value = new System.DateTime(2021, 8, 7, 0, 0, 0, 0);
             // 
@@ -459,36 +459,36 @@ namespace PCMonitor.UI
             // 
             this.cmbCPUFans.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cmbCPUFans.FormattingEnabled = true;
-            this.cmbCPUFans.Location = new System.Drawing.Point(16, 90);
+            this.cmbCPUFans.Location = new System.Drawing.Point(19, 98);
             this.cmbCPUFans.Name = "cmbCPUFans";
-            this.cmbCPUFans.Size = new System.Drawing.Size(148, 20);
+            this.cmbCPUFans.Size = new System.Drawing.Size(148, 21);
             this.cmbCPUFans.TabIndex = 3;
             // 
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(16, 73);
+            this.label10.Location = new System.Drawing.Point(16, 82);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(77, 12);
+            this.label10.Size = new System.Drawing.Size(50, 13);
             this.label10.TabIndex = 2;
-            this.label10.Text = "CPU 风扇/Fan";
+            this.label10.Text = "CPU Fan";
             // 
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(14, 123);
+            this.label9.Location = new System.Drawing.Point(16, 138);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(137, 12);
+            this.label9.Size = new System.Drawing.Size(69, 13);
             this.label9.TabIndex = 1;
-            this.label9.Text = "监控网卡/Net Interface";
+            this.label9.Text = "Net Interface";
             // 
             // cmbNetInterfaces
             // 
             this.cmbNetInterfaces.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cmbNetInterfaces.FormattingEnabled = true;
-            this.cmbNetInterfaces.Location = new System.Drawing.Point(16, 141);
+            this.cmbNetInterfaces.Location = new System.Drawing.Point(19, 154);
             this.cmbNetInterfaces.Name = "cmbNetInterfaces";
-            this.cmbNetInterfaces.Size = new System.Drawing.Size(148, 20);
+            this.cmbNetInterfaces.Size = new System.Drawing.Size(148, 21);
             this.cmbNetInterfaces.TabIndex = 0;
             // 
             // groupBox4
@@ -496,47 +496,47 @@ namespace PCMonitor.UI
             this.groupBox4.Controls.Add(this.linkAuthor);
             this.groupBox4.Controls.Add(this.lnkGitHub);
             this.groupBox4.Controls.Add(this.label12);
-            this.groupBox4.Location = new System.Drawing.Point(531, 12);
+            this.groupBox4.Location = new System.Drawing.Point(531, 13);
             this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Size = new System.Drawing.Size(378, 534);
+            this.groupBox4.Size = new System.Drawing.Size(378, 578);
             this.groupBox4.TabIndex = 15;
             this.groupBox4.TabStop = false;
-            this.groupBox4.Text = "说明/Caption";
+            this.groupBox4.Text = "App Developer Info";
             // 
             // linkAuthor
             // 
             this.linkAuthor.AutoSize = true;
-            this.linkAuthor.Location = new System.Drawing.Point(299, 515);
+            this.linkAuthor.Location = new System.Drawing.Point(285, 558);
             this.linkAuthor.Name = "linkAuthor";
-            this.linkAuthor.Size = new System.Drawing.Size(65, 12);
+            this.linkAuthor.Size = new System.Drawing.Size(87, 13);
             this.linkAuthor.TabIndex = 2;
             this.linkAuthor.TabStop = true;
-            this.linkAuthor.Text = "开发者主页";
+            this.linkAuthor.Text = "Developer Home";
             this.linkAuthor.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkAuthor_LinkClicked);
             // 
             // lnkGitHub
             // 
             this.lnkGitHub.AutoSize = true;
-            this.lnkGitHub.Location = new System.Drawing.Point(196, 515);
+            this.lnkGitHub.Location = new System.Drawing.Point(203, 558);
             this.lnkGitHub.Name = "lnkGitHub";
-            this.lnkGitHub.Size = new System.Drawing.Size(89, 12);
+            this.lnkGitHub.Size = new System.Drawing.Size(76, 13);
             this.lnkGitHub.TabIndex = 1;
             this.lnkGitHub.TabStop = true;
-            this.lnkGitHub.Text = "项目GitHub主页";
+            this.lnkGitHub.Text = "Project GitHub";
             this.lnkGitHub.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.lnkGitHub_LinkClicked);
             // 
             // label12
             // 
             this.label12.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.label12.Location = new System.Drawing.Point(7, 17);
+            this.label12.Location = new System.Drawing.Point(7, 18);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(365, 484);
+            this.label12.Size = new System.Drawing.Size(365, 524);
             this.label12.TabIndex = 0;
             this.label12.Text = resources.GetString("label12.Text");
             // 
             // tbarBrightness
             // 
-            this.tbarBrightness.Location = new System.Drawing.Point(17, 140);
+            this.tbarBrightness.Location = new System.Drawing.Point(29, 152);
             this.tbarBrightness.Maximum = 100;
             this.tbarBrightness.Name = "tbarBrightness";
             this.tbarBrightness.Size = new System.Drawing.Size(246, 45);
@@ -546,18 +546,18 @@ namespace PCMonitor.UI
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(15, 124);
+            this.label7.Location = new System.Drawing.Point(27, 134);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(95, 12);
+            this.label7.Size = new System.Drawing.Size(56, 13);
             this.label7.TabIndex = 16;
-            this.label7.Text = "亮度/Brightness";
+            this.label7.Text = "Brightness";
             // 
             // labBrightness
             // 
             this.labBrightness.AutoSize = true;
-            this.labBrightness.Location = new System.Drawing.Point(234, 133);
+            this.labBrightness.Location = new System.Drawing.Point(246, 144);
             this.labBrightness.Name = "labBrightness";
-            this.labBrightness.Size = new System.Drawing.Size(17, 12);
+            this.labBrightness.Size = new System.Drawing.Size(19, 13);
             this.labBrightness.TabIndex = 17;
             this.labBrightness.Text = "50";
             // 
@@ -572,78 +572,78 @@ namespace PCMonitor.UI
             this.groupBox5.Controls.Add(this.btnLandscape);
             this.groupBox5.Controls.Add(this.btnNormal);
             this.groupBox5.Controls.Add(this.btnMirror);
-            this.groupBox5.Location = new System.Drawing.Point(224, 193);
+            this.groupBox5.Location = new System.Drawing.Point(224, 209);
             this.groupBox5.Name = "groupBox5";
-            this.groupBox5.Size = new System.Drawing.Size(301, 196);
+            this.groupBox5.Size = new System.Drawing.Size(301, 212);
             this.groupBox5.TabIndex = 22;
             this.groupBox5.TabStop = false;
-            this.groupBox5.Text = "屏幕操作/";
+            this.groupBox5.Text = "screen operation";
             // 
             // btnVerticalInvert
             // 
-            this.btnVerticalInvert.Location = new System.Drawing.Point(148, 86);
+            this.btnVerticalInvert.Location = new System.Drawing.Point(160, 91);
             this.btnVerticalInvert.Name = "btnVerticalInvert";
-            this.btnVerticalInvert.Size = new System.Drawing.Size(115, 23);
+            this.btnVerticalInvert.Size = new System.Drawing.Size(115, 25);
             this.btnVerticalInvert.TabIndex = 5;
-            this.btnVerticalInvert.Text = "竖屏(反转)";
+            this.btnVerticalInvert.Text = "Portrait (reverse)";
             this.btnVerticalInvert.UseVisualStyleBackColor = true;
             this.btnVerticalInvert.MouseClick += new System.Windows.Forms.MouseEventHandler(this.btnVerticalInvert_MouseClick);
             // 
             // btnVertical
             // 
-            this.btnVertical.Location = new System.Drawing.Point(17, 86);
+            this.btnVertical.Location = new System.Drawing.Point(30, 91);
             this.btnVertical.Name = "btnVertical";
-            this.btnVertical.Size = new System.Drawing.Size(115, 23);
+            this.btnVertical.Size = new System.Drawing.Size(115, 25);
             this.btnVertical.TabIndex = 4;
-            this.btnVertical.Text = "竖屏";
+            this.btnVertical.Text = "Vertical screen";
             this.btnVertical.UseVisualStyleBackColor = true;
             this.btnVertical.MouseClick += new System.Windows.Forms.MouseEventHandler(this.btnVertical_MouseClick);
             // 
             // btnLandscapeInvert
             // 
-            this.btnLandscapeInvert.Location = new System.Drawing.Point(148, 56);
+            this.btnLandscapeInvert.Location = new System.Drawing.Point(160, 55);
             this.btnLandscapeInvert.Name = "btnLandscapeInvert";
-            this.btnLandscapeInvert.Size = new System.Drawing.Size(115, 23);
+            this.btnLandscapeInvert.Size = new System.Drawing.Size(115, 25);
             this.btnLandscapeInvert.TabIndex = 3;
-            this.btnLandscapeInvert.Text = "横屏(反转)";
+            this.btnLandscapeInvert.Text = "Landscape (reverse)";
             this.btnLandscapeInvert.UseVisualStyleBackColor = true;
             this.btnLandscapeInvert.MouseClick += new System.Windows.Forms.MouseEventHandler(this.btnLandscapeInvert_MouseClick);
             // 
             // btnLandscape
             // 
-            this.btnLandscape.Location = new System.Drawing.Point(17, 56);
+            this.btnLandscape.Location = new System.Drawing.Point(29, 55);
             this.btnLandscape.Name = "btnLandscape";
-            this.btnLandscape.Size = new System.Drawing.Size(115, 23);
+            this.btnLandscape.Size = new System.Drawing.Size(115, 25);
             this.btnLandscape.TabIndex = 2;
-            this.btnLandscape.Text = "横屏";
+            this.btnLandscape.Text = "Horizontal screen";
             this.btnLandscape.UseVisualStyleBackColor = true;
             this.btnLandscape.MouseClick += new System.Windows.Forms.MouseEventHandler(this.btnLandscape_MouseClick);
             // 
             // btnNormal
             // 
-            this.btnNormal.Location = new System.Drawing.Point(17, 20);
+            this.btnNormal.Location = new System.Drawing.Point(29, 22);
             this.btnNormal.Name = "btnNormal";
-            this.btnNormal.Size = new System.Drawing.Size(115, 23);
+            this.btnNormal.Size = new System.Drawing.Size(115, 25);
             this.btnNormal.TabIndex = 1;
-            this.btnNormal.Text = "正像";
+            this.btnNormal.Text = "Normal Image";
             this.btnNormal.UseVisualStyleBackColor = true;
             this.btnNormal.MouseClick += new System.Windows.Forms.MouseEventHandler(this.btnNormal_MouseClick);
             // 
             // btnMirror
             // 
-            this.btnMirror.Location = new System.Drawing.Point(148, 20);
+            this.btnMirror.Location = new System.Drawing.Point(160, 22);
             this.btnMirror.Name = "btnMirror";
-            this.btnMirror.Size = new System.Drawing.Size(115, 23);
+            this.btnMirror.Size = new System.Drawing.Size(115, 25);
             this.btnMirror.TabIndex = 0;
-            this.btnMirror.Text = "镜像";
+            this.btnMirror.Text = "Mirror image";
             this.btnMirror.UseVisualStyleBackColor = true;
             this.btnMirror.MouseClick += new System.Windows.Forms.MouseEventHandler(this.btnMirror_MouseClick);
             // 
             // Main
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(922, 558);
+            this.ClientSize = new System.Drawing.Size(922, 604);
             this.Controls.Add(this.groupBox5);
             this.Controls.Add(this.groupBox4);
             this.Controls.Add(this.groupBox3);

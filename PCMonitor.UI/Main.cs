@@ -588,22 +588,22 @@ namespace PCMonitor.UI
 
         private void btnLandscape_MouseClick(object sender, MouseEventArgs e)
         {
-
+            this.renderLauncher.USBScreen.SetLandscapeDisplay(false);
         }
 
         private void btnLandscapeInvert_MouseClick(object sender, MouseEventArgs e)
         {
-
+            this.renderLauncher.USBScreen.SetLandscapeDisplay(true);
         }
 
         private void btnVertical_MouseClick(object sender, MouseEventArgs e)
         {
-
+            this.renderLauncher.USBScreen.SetVerticalDisplay(false);
         }
 
         private void btnVerticalInvert_MouseClick(object sender, MouseEventArgs e)
         {
-
+            this.renderLauncher.USBScreen.SetVerticalDisplay(true);
         }
     }
 
